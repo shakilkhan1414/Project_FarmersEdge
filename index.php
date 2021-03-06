@@ -67,15 +67,15 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#service">Service</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="user/signup.html">Signup</a></li>
-                <li><a href="user/login.html">Login</a></li>
+                <li><a href="user/view/signup.html">Signup</a></li>
+                <li><a href="user/view/login.html">Login</a></li>
             </ul>
         </div>
     </header>
         <div>
             <h1>FarmersEdge for Farmers</h1>
             <p>Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals, and happiness.</p>
-            <a href="user/signup.html" class="btn">Join Now &rarr;</a>
+            <a href="user/view/signup.html" class="btn">Join Now &rarr;</a>
         </div>
     </section>
 
@@ -100,27 +100,27 @@
                 <i class="fas fa-tractor"></i>
                 <h1>Farming</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quam facilis illo officia! Fuga totam eveniet ex iste provident! Laborum vitae rem inventore ipsa placeat cumque tempore quos sed ipsum.</p>
-                <a href="user/signup.html">Buy Now &rarr;</a>
+                <a href="user/view/signup.html">Buy Now &rarr;</a>
             </div>
             <div>
                 <i class="fas fa-cow"></i>
                 <h1>Farming</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quam facilis illo officia! Fuga totam eveniet ex iste provident! Laborum vitae rem inventore ipsa placeat cumque tempore quos sed ipsum.</p>
-                <a href="user/signup.html">Buy Now &rarr;</a>
+                <a href="user/view/signup.html">Buy Now &rarr;</a>
             </div>
             <div>
                 <i class="fab fa-phoenix-framework"></i>
                 <h1>Farming</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quam facilis illo officia! Fuga totam eveniet ex iste provident! Laborum vitae rem inventore ipsa placeat cumque tempore quos sed ipsum.</p>
-                <a href="user/signup.html">Buy Now &rarr;</a>
+                <a href="user/view/signup.html">Buy Now &rarr;</a>
             </div>
     </section>
 
     <section id="want_help">
         <h1>Want our help?</h1>
         <div>
-        <a href="user/login.html">Login &rarr;</a>
-        <a href="user/signup.html">Signup &rarr;</a>
+        <a href="user/view/login.html">Login &rarr;</a>
+        <a href="user/view/signup.html">Signup &rarr;</a>
         </div>
     </section>
 

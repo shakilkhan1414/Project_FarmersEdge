@@ -16,7 +16,7 @@
                             if($password==$user[$i]['password']){
                                 $_SESSION['flag'] = true;
                                 $_SESSION['username']=$user[$i]['username'];
-                                header('location: ../test.html');					
+                                header('location: ../view/test.html');					
                             }
                         }
                     }
