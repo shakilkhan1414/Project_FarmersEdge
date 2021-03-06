@@ -40,7 +40,7 @@
     <title>FarmersEdge</title>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div class="logo">
             <img src="img/logo.png" alt="Logo">
         </div>
@@ -54,13 +54,28 @@
                 <li><a href="user/login.html">Login</a></li>
             </ul>
         </div>
-    </header>
+    </header> -->
 
     <section id="font-page">
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="user/signup.html">Signup</a></li>
+                <li><a href="user/login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
         <div>
             <h1>FarmersEdge for Farmers</h1>
             <p>Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals, and happiness.</p>
-            <a href="user/signup.html">Join Now &rarr;</a>
+            <a href="user/signup.html" class="btn">Join Now &rarr;</a>
         </div>
     </section>
 
