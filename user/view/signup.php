@@ -55,11 +55,11 @@
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" name="password" autocomplete="off">
+            <input type="password" placeholder="Enter your password" name="password" autocomplete="off">
           </div>
           <div class="input-box">
             <span class="details">Retype Password</span>
-            <input type="text" placeholder="Retype your password" name="repassword" autocomplete="off">
+            <input type="password" placeholder="Retype your password" name="repassword" autocomplete="off">
           </div>
         </div>
         <div class="gender-details">
