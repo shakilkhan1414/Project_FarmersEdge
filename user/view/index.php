@@ -54,7 +54,7 @@
         <div>
             <h1>FarmersEdge for Farmers</h1>
             <p>Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals, and happiness.</p>
-            <a href="user/view/signup.html" class="btn">Join Now &rarr;</a>
+            <a href="signup.php" class="btn">Join Now &rarr;</a>
         </div>
     </section>
 
@@ -67,51 +67,28 @@
                 Agriculture and domestication probably started in the Fertile Crescent (the Nile Valley, The Levant and Mesopotamia). The area called Fertile Crescent is now in the countries of Iraq, Syria, Turkey, Jordan, Lebanon, Israel, and Egypt. Wheat and barley are some of the first crops people grew. People probably started agriculture slowly by planting a few crops, but still gathered many foods from the wild.</p>
             </div>
             <div class="about_picture">
-                <img src="img/side_image.jpg" alt="farmer">
+                <img src="../../img/side_image.jpg" alt="farmer">
             </div>
         </div>
-    </section>
-
-    <section id="service">
-            <h1 class="header_service">Services</h1>
-        <div class="service_wrapper">
-            <div>
-                <i class="fas fa-tractor"></i>
-                <h1>Farming</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quam facilis illo officia! Fuga totam eveniet ex iste provident! Laborum vitae rem inventore ipsa placeat cumque tempore quos sed ipsum.</p>
-                <a href="user/view/signup.html">Buy Now &rarr;</a>
-            </div>
-            <div>
-                <i class="fas fa-cow"></i>
-                <h1>Farming</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quam facilis illo officia! Fuga totam eveniet ex iste provident! Laborum vitae rem inventore ipsa placeat cumque tempore quos sed ipsum.</p>
-                <a href="user/view/signup.html">Buy Now &rarr;</a>
-            </div>
-            <div>
-                <i class="fab fa-phoenix-framework"></i>
-                <h1>Farming</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quam facilis illo officia! Fuga totam eveniet ex iste provident! Laborum vitae rem inventore ipsa placeat cumque tempore quos sed ipsum.</p>
-                <a href="user/view/signup.html">Buy Now &rarr;</a>
-            </div>
     </section>
 
     <section id="want_help">
         <h1>Want our help?</h1>
         <div>
-        <a href="user/view/login.html">Login &rarr;</a>
-        <a href="user/view/signup.html">Signup &rarr;</a>
+        <a href="login.html">Login &rarr;</a>
+        <a href="signup.php">Signup &rarr;</a>
         </div>
     </section>
 
     <section id="contact">
         <div>
-            <img src="img/black_image.png" alt="black_image">
+            <img src="../../img/black_image.png" alt="black_image">
         </div>
         <div class="form">
             <form method="POST">            
                     <h1>Ask Your Queries</h1>
                     <div>
-                        <input type="text" name="name" id="" placeholder="Name*" required>                
+                        <input type="text" name="name" id="" placeholder="Name*">                
                     </div>
                     <div>
                         <input type="email" name="email" id="" placeholder="Email*" required>     
