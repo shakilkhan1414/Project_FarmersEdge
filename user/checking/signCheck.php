@@ -2,11 +2,6 @@
     require_once "../../database/connection.php";
     require_once "../../database/userModel.php";
 
-    function nameCheck($inputName){
-        if($inputName>='A' && $inputName<='Z' || $inputName>='a' && $inputName<='z')
-        { return true; }
-        else{ return false; }
-    }
     function validateEmail($data){
         $atposition=strpos($data,'@');
         $dotposition=strrpos($data,'.');
@@ -43,7 +38,7 @@
             header("location: ../view/signup.php?error=$error");
         }
         else{
-            if(nameCheck($firstname) && nameCheck($lastname)){
+            if(ctype_alpha($firstname) && ctype_alpha($lastname) || strpos($firstname," ")==true){
                 if(empty($username)){
                     $error="*Username is required!";
                     header("location: ../view/signup.php?error=$error");

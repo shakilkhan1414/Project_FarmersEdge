@@ -39,7 +39,7 @@
 
 	function updateUser($user){
 		$conn = getConnection();
-		$sql = "update users set firstname='{$user['firstname']}', lastname='{$user['lastname']}', username='{$user['username']}', email='{$user['email']}', gender='{$user['gender']}', dob='{$user['dob']}' where id='{$user['id']}'";
+		$sql = "update users set first_name='{$user['firstname']}', last_name='{$user['lastname']}', username='{$user['username']}', email='{$user['email']}', gender='{$user['gender']}', dob='{$user['dob']}' where id='{$user['id']}'";
 		
 		if(mysqli_query($conn, $sql)){
 			return true;

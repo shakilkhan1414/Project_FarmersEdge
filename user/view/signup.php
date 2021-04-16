@@ -89,7 +89,7 @@
             </div>
             <div class="input-box">
                 <span class="details">Profile Picture</span>
-                <input type="file" name="profile_image" id="" required>
+                <input type="file" name="profile_image" id="">
             </div>
         </div>
         <div class="button">
